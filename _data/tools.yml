@@ -1,0 +1,19 @@
+soldering:
+  beginner:
+    - name: "Pinecil V2"
+      role: "Portable beginner iron"
+      approx_price: "$35–45"
+      url: ""           # fill in later
+      notes: "USB-C, temperature-controlled, great entry point."
+    - name: "Basic Brass Tip Cleaner"
+      role: "Tip maintenance"
+      approx_price: "$5–10"
+      url: ""
+      notes: "Better than a wet sponge for thermal stability."
+
+  intermediate:
+    - name: "Hakko FX888D"
+      role: "Bench soldering station"
+      approx_price: "$100–130"
+      url: ""
+      notes: "Reliable workhorse for daily soldering."
