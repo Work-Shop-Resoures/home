@@ -1,0 +1,13 @@
+title: "Workshop Resources"
+description: "Starter resources for electronics, soldering, CAD, embedded systems, and rework."
+# Use a GitHub Pages-supported theme. Minimal is fine to start.
+theme: jekyll-theme-minimal
+
+# Optional but handy
+markdown: kramdown
+timezone: America/Chicago
+
+# Where collections and data would go if/when we add them
+collections:
+  topics:
+    output: true
