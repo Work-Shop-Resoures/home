@@ -122,6 +122,22 @@ This same Beginner / Intermediate / Professional pattern can be reused for:
 - [ ] Electronics & EE Bench Setup  
 - [ ] CAD & 3D Printing Tools  
 - [ ] Embedded / Microcontroller Labs  
-- [ ] Microsoldering & BGA-Specific Gear  
+- [ ] Microsoldering & BGA-Specific Gear
+
+{% if site.data.tools and site.data.tools.soldering %}
+## Current Soldering Inventory
+
+### Beginner Items
+
+{% for item in site.data.tools.soldering.beginner %}
+- **{{ item.name }}** — {{ item.approx_price }}  
+  _{{ item.role }}_  
+  {{ item.notes }}
+{% endfor %}
+{% endif %}
+
+
+
+
 
 Each section can live in its own folder (e.g., `/electronics`, `/cad-3d-printing`) using this same structure.
