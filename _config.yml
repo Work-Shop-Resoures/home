@@ -1,7 +1,7 @@
 title: "Workshop Resources"
 description: "Starter resources for electronics, soldering, CAD, embedded systems, and rework."
 # Use a GitHub Pages-supported theme. Minimal is fine to start.
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
 
 # Optional but handy
 markdown: kramdown
